@@ -1,0 +1,85 @@
+body{
+    /* background-color: #282a35; */
+    background-color:rgb(236 240 240);
+}
+a{
+    color: #0066cc;
+    font-weight: bold;
+}
+.row {
+width: 100%;
+}
+.card {
+margin: 15px;
+box-shadow: rgb(159 159 159) 0px 3px 10px -5px;
+
+}
+.card-body{
+ /*
+background-color: #04aa6d;
+color: aliceblue;*/
+text-align: center;
+} 
+/* .card-title{
+font-weight: ; 
+}*/
+.film-styles{
+color: #00a1cb;
+font-weight: bold;
+
+}
+.epsode-num{
+font-weight: bold;
+color: #ffb000;
+font-size: small;
+}
+.epsode-num:after{
+content:();
+}
+.size-pragraf{
+    direction: ltr;
+}
+  div span.ml-2 {
+    padding: .375rem .75rem;
+} 
+ .search-input {
+        background-image: url("../img/searchicon.png");
+        background-repeat: no-repeat;
+        background-position: left calc(.375em + .1875rem) center;
+        background-size: calc(.75em + .375rem) calc(.75em + .375rem);}
+        .flout-btns {
+            position: fixed;
+            bottom: 10px;
+            right: 10px;
+            z-index: 99;
+            border: none;
+            outline: none;
+            color: white;
+            cursor: pointer;
+            padding: 15px;
+            border-radius: 10px;
+            font-size: 18px;}
+        a.flout-btns.bg-warning  {
+            margin-bottom: 4rem;
+        }
+        .font-small{
+            font-size: small;
+        }
+        .d-inline-box{
+            display: -webkit-inline-box;
+        }
+        caption{
+            text-align: center;
+            caption-side: top;
+        }
+        .small-img{
+            width: 140px;
+            height: 200px;
+            border-radius: 0.25rem;
+        }
+        .table td, .table th{
+            vertical-align: middle
+        }
+        .navbar-brand{
+          margin-right: 0;
+        }
